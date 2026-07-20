@@ -1,7 +1,7 @@
 import { useState, useMemo, useCallback, useRef } from 'react'
 import * as pdfjsLib from 'pdfjs-dist'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.min.mjs?url'
-import './App.css'
+import './app.css'
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker
 
