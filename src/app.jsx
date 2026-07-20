@@ -172,7 +172,7 @@ function App() {
     <div className="wrap">
 
       <div className="masthead">
-        <div className="eyebrow">três motores · um resumo</div>
+  
         <h1 className="title">Sumar<em>IzA</em></h1>
         <p className="subtitle">
           Cole um texto, escolha o método de extração e o tamanho do resumo.
@@ -357,7 +357,6 @@ function App() {
 
       </div>
 
-      <footer>SumarIzA · front-end React consumindo a API FastAPI de sumarização</footer>
     </div>
   )
 }
