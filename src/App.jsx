@@ -69,7 +69,7 @@ function TextoMarcado({ original, resumo }) {
 }
 
 function App() {
-  const [apiBase, setApiBase] = useState('http://127.0.0.1:8000')
+  const [apiBase, setApiBase] = useState('https://apisumm.onrender.com/')
   const [texto, setTexto] = useState('')
   const [metodo, setMetodo] = useState('sumy')
   const [tamanho, setTamanho] = useState('medio')
@@ -190,7 +190,7 @@ function App() {
               type="text"
               value={apiBase}
               onChange={(e) => setApiBase(e.target.value)}
-              placeholder="http://127.0.0.1:8000"
+              placeholder="https://apisumm.onrender.com/"
             />
           </div>
 
