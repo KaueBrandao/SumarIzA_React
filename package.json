@@ -1,5 +1,4 @@
 {
-  "homepage": "https://KaueBrandao.github.io/SumarIzA_React",
   "name": "meu-projeto",
   "version": "0.0.0",
   "private": true,
@@ -10,6 +9,9 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.3",
